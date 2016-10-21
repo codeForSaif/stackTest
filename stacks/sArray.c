@@ -1,6 +1,7 @@
 #include <stdio.h>
 #define MAX 10 /* The maximum size of the stack */
 #include <stdlib.h>
+//this is my first stack program
 void push(int stack[], int *top, int value)
 {
 	if(*top < MAX )
